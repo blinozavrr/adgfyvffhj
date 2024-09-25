@@ -30,3 +30,45 @@ footer {
 footer p {
     margin: 0;
 }
+
+/* Главный блок */
+.hero-section {
+    background: url('https://via.placeholder.com/1600x600') no-repeat center center;
+    background-size: cover;
+    height: 600px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    background-color: rgba(255, 255, 255, 0.8); /* Полупрозрачный белый фон */
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+}
+
+.content-box h1 {
+    color: #007bff;
+    font-size: 2.5rem;
+}
+
+.content-box p {
+    color: #333;
+    font-size: 1.2rem;
+}
+
+.content-box .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
