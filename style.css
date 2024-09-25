@@ -74,7 +74,7 @@ footer p {
 
 /* Главный блок */
 .hero-section {
-    background: url(785acfadb9f3c381d781ab1dcef1d2d8.jpg) no-repeat center center;
+    background: url(https://i.pinimg.com/564x/54/af/42/54af423fb575e4dfecba6c2d962be5d0.jpg) no-repeat center center;
     background-size: cover;
     height: 600px;
     position: relative;
@@ -113,3 +113,5 @@ footer p {
     font-size: 1.2rem;
     padding: 10px 20px;
 }
+.text-center mt-5 {
+    
