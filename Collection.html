@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Подключаем стили Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">Услуги</a></li>
+                <li><a href="#">Отзывы</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="product-carousel">
+            <h2>Наши товары</h2>
+            <!-- Карусель товаров -->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <!-- Каждый товар -->
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <img src="product1.jpg" alt="Product 1">
+                            <p>Товар 1</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <img src="product2.jpg" alt="Product 2">
+                            <p>Товар 2</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <img src="product3.jpg" alt="Product 3">
+                            <p>Товар 3</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <img src="product4.jpg" alt="Product 4">
+                            <p>Товар 4</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <img src="product5.jpg" alt="Product 5">
+                            <p>Товар 5</p>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="product">
+                            <img src="product6.jpg" alt="Product 6">
+                            <p>Товар 6</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Кнопки навигации -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Create by Malika</p>
+    </footer>
+
+    <!-- Подключаем скрипты Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            slidesPerView: 3,
+            spaceBetween: 30,
+            loop: true
+        });
+    </script>
+
+</body>
+</html>
