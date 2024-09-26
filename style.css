@@ -80,3 +80,46 @@ footer {
 footer p {
     font-size: 16px;
 }
+
+.product-carousel {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.product-carousel h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.swiper-container {
+    width: 80%;
+    margin: auto;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Кнопки навигации Swiper */
+.swiper-button-next, .swiper-button-prev {
+    color: #000;
+}
